@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head -->
+<head>
+    <meta charset="utf-8">
+    <title> RJ clothing </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <!-- Css -->
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- font -->
+    
+</head>
+<!-- head -->
+
+
+<!-- body -->
+<body>
+
+<!-- header -->
+<div class="block">
+    <header class="header">
+        <a href="https://www.facebook.com/GJ-Clothing-102928368376614" class="header-logo">RJ Clothing</a>
+    </header>
+</div>
+<!-- header -->
+
+<!-- banner -->
+<div class="block">
+    <div class="banner">
+         <img src="src/img/background.png" alt="deux personnes" class="banner-image">
+         <div class="banner-content">
+             <h1 class="title is-1"> welcome to RJ Clothing </h1>
+             <h2 class="subtitle"> Découvrez nos offres et nos produits! </h2>
+             <button class="button" id="open_modal"><span>Commendez!</button></span>
+         </div>
+    </div>
+</div>
+<!-- banner -->
+
+<!-- modal -->
+<div class="modal own-modal" id="modal_to_open">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Passez votre commande</p>
+      <button class="delete" aria-label="close" id="close_modal"></button>
+    </header>
+    <section class="modal-card-body">
+      <p>
+        <form>
+          <div class="field">
+          <label class="label">votre nom & prénom <label>
+            <div class="control">
+              <input id="name" class="input" type="text" placeholder=" Alex Smith" name="nom">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label"> Votre numéro de teléphone valide <label>
+              <div class="control">
+                <input id="firstname" class="input" type="text" placeholder="+216" number="number">
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">votre mail<label>
+                <div class="control">
+                  <input id="email" class="input" type="text" placeholder="Alex.Smith@gmail.com" name="email">
+                </div>
+              </div>
+              <div class="field">
+                <label class="label"> votre commande <label>
+                  <div class="control">
+                  <textarea id="message" class="textarea" placeholder="article souhaité"></textarea>
+                </div>
+                </div>
+        </form>
+      </p>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-link" id="send_email"><span> Envoyer!</button></span>
+    </footer>
+  </div>
+</div>
+<!-- modal -->
+    
+
+<!-- portfolio -->
+<div class="block">
+    <h2 class="subtitle heading-site"> Notre catalogue🪐 </h2>
+    <div class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child box">
+                    <div class ="notification">Capuche blanche 45dt</div>
+                  </article>
+                  <article class="tile is-child box">
+                    <img src="src/img/capuche from another point of view.jpeg" alt="la description de la photo">
+                  </article>
+                </div>
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child box">
+                    <div class ="notification">Capuche blanche 45dt</div>
+                  </article>
+                  <article class="tile is-child box">
+                    <img src="src/img/capuche from another point of view.jpeg" alt="la description de la photo">
+                  </article>
+                </div>
+                
+                
+              </article>
+            </div>
+          </div>
+    </div>
+</div>
+<!-- section: à propos -->
+<div class="block">
+  <h2 class="subtitle heading-site"> À propos</h2>
+  <div class="container about">
+      <div class="columns">
+          <div class="column about-single-element">
+            <i class="fas fa-truck icon"></i>
+              <p>
+                   Livraison gratuite dans le grand Tunis dans un délai qui ne dépasse pas les 7 jours juste après avoir finaliser votre commande📦.
+              </p>
+           </div>
+           <div class="column about-single-element">
+            <i class="fas fa-street-view icon"></i>
+               <p>
+                    Nous nous localisons dans le grand tunis, plus précisément dans le gouvernorat de Ben arous.
+           </p>
+           </div>
+           <div class="column about-single-element">
+            <i class="far fa-credit-card icon"></i>
+              <p>
+           Votre paiement en espèce s'effectue à la livraison de l'article acheté en ligne 
+              </p>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- section: à propos -->
+<!-- portfolio  -->
+
+
+
+
+<!-- contact -->
+<div class="block">
+    <footer class="footer">
+        <h2 class="heading-site"> Contactez-nous </h2>
+        <div class="footer-contact-form">
+        </div>
+        <div class="footer-information">
+          <p>rj.cloathing@gmail.com 📧 </p>
+          <p>📞 +216 55 551 854 </p>
+          <p>📞 +216 54 062 003 </p>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/GJ-Clothing-102928368376614">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </footer>
+</div>
+
+<!-- contact -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+<!-- body -->
+
+
+</html>
