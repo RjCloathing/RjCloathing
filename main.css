@@ -1,0 +1,152 @@
+/*
+GLOBAL
+*/
+.heading-site{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0,0,0,0);
+    position:fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #07000a;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-menu {
+    float:right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #a211e6
+}
+
+.header .header-menu a:hover {
+    color:#3498db
+}
+
+/*
+BANNER
+*/
+.banner {
+    margin-top: -30px;
+}
+
+.banner .banner-image{
+    position: relative;
+}
+
+.banner .banner-content{
+    position: absolute;
+    width: 104%;
+    text-align: center;
+    top:35%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color:#0e0d0e
+}
+
+/*
+ABOUT mtaa el ktiba li taht les icones
+*/
+.about .about-single-element .icon {
+    font-size: 80px;
+    text-align: center;
+}
+
+.about .about-single-element {
+    text-align: center;
+}
+
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
+}
+/*
+.banner-image
+*/
+.banner-image{
+    position: center;
+    width: 110%;
+}
+
+/*
+.notification mtaaa soum el capuche
+*/
+.notification{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+FOOTER mtaa el louta belkoll
+*/
+.footer .footer-information{
+    text-align: center;
+    margin-top: 0px;
+    size:0px;
+}
+.footer .foooter-information ul{
+    padding:0;
+}
+
+.footer .footer-information ul li{
+    display: inline-block;
+    list-style-type: none;
+    size: 50px;
+}
+/*
+MODAL
+*/
+.own-modal{
+    padding-top:120px;
+}
+.button{
+    background-color:#708aabb0;
+    border-color: white;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -70px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 10px;
+  }
+  
+  .button:hover span:after {
+    opacity: 5;
+    right: 0
+  }
+  .subtitle{
+    Line-height:3.25;
+}
